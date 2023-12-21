@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(8, 8, 8);
+    padding: 0;
+    margin: 0;
+}
+
+.container-logo-navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+}
+
+.piano {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.modulo {
+    display: flex;
+    justify-content: center;
+}
+
+.white-key {
+    background-color: white;
+    width: 3rem;
+    height: 18rem;
+    border: solid black 1px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.black-key {
+    position: absolute;
+    margin-left: -1.25rem;
+    background-color: rgb(5, 5, 5);
+    width: 2.5rem;
+    height: 9rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letters {
+    margin-top: 1%;
+}
+
+.letters-black{
+    margin-bottom: 1%;
+    color: white;
+}
